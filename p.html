@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email validator</title>
+   
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+               <img src="img/email.svg" alt=" email.svg">
+               <span>E-verify</span>
+            </div>
+          <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact us</a> </li>
+                   
+            </ul>
+
+        </nav>
+        
+    </header>
+    <main>
+  <div class="container">
+    <h1>Enter yout Email Validate</h1>
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <!-- <label for="username">Email:</label> -->
+        <input placeholder="enter email to validate" id="username" name="username" required>
+        <br><br>
+    
+       
+       
+    
+        <!-- Submit button -->
+        <input id ="submitBtn" class="btn" type="submit" value="Submit">
+      </form>
+  </div>
+  <div class="container">
+    <h2>RESULT</h2>
+    <div id = "resultCont" >
+        your results are displayed here
+        
+    </div>
+  </div>
+    </main>
+
+    <footer>
+   Copyright E-verify.com | All Rights Reserved
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
